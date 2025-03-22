@@ -17,6 +17,6 @@ cd py_test_05
 pip install -r requirements.txt
 
  4. Run the Batch File (Windows)
- 5. 
+    
 .\run_tests.bat
 
