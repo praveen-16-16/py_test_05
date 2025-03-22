@@ -3,7 +3,7 @@ This project demonstrates running Python code inside a virtual environment using
 
 
  1. Clone the Repository
- 2. 
+ 2.  
 git clone https://github.com/praveen-16-16/py_test_05.git
 
 cd py_test_05
