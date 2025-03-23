@@ -9,8 +9,8 @@ def addd():
     print(f"\nResult of Addition ({a}, {b}) = {result}")
 
 def test_add():
-    a = 5
-    b = 10
+    a = 500
+    b = 100
 
     result = add(a,b)
 
