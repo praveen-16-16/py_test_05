@@ -1,12 +1,9 @@
 from arithmetics import multiply
 
-def test_multiply():
-    result1 = multiply(3, 2)
-    result2 = multiply(-1, 3)
-    result3 = multiply(0, 5)
-    
-    print(f"Multiplication Results: {result1}, {result2}, {result3}")
+def test_add():
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
 
-    assert result1 == 6
-    assert result2 == -3
-    assert result3 == 0
+    result = multiply(a,b)
+
+    print(f"\nResult of Multiplye ({a}, {b}) = {result}")

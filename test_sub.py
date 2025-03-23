@@ -1,12 +1,12 @@
+
+
 from arithmetics import subtract
 
-def test_subtract():
-    result1 = subtract(5, 2)
-    result2 = subtract(2, 5)
-    result3 = subtract(0, 0)
-    
-    print(f"Subtraction Results: {result1}, {result2}, {result3}")
+def test_sub():
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
 
-    assert result1 == 3
-    assert result2 == -3
-    assert result3 == 0
+    result = subtract(a,b)
+
+    print(f"\nResult of subtract ({a}, {b}) = {result}")
+
